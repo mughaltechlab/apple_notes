@@ -99,7 +99,7 @@ header{
     grid-template-columns: 1fr 1fr;
     gap: 20px; */
 }
-.notesApp p{
+.notesApp .inputBox{
     /* max-width: 90%; */
     width: 100%;
     min-height: 140px;

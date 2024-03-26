@@ -19,6 +19,7 @@ function addNote(){
     const note = document.createElement('p');
     note.setAttribute('contenteditable','true');
     note.className = 'inputBox';
+    note.appendChild(document.createTextNode('Note it....'))
     const img = document.createElement('img');
     img.src = './delete.png';
     img.setAttribute('id','deleteBtn');
