@@ -108,7 +108,8 @@ header{
     outline: 0;
     /* backdrop-filter: blur(60px); */
     background: rgba(255,255,255,0.05);
-    box-shadow: 0 0 5px solid;
+    box-shadow: 0 0 5px 5px rgba(130, 129, 129, 0.4);
+    border-radius: 5px;
     position: relative;
     padding: 20px;
     margin: 10px auto;
