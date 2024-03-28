@@ -116,6 +116,12 @@ header{
     backdrop-filter: blur(40px);
 
 }
+
+/* .notesApp p:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+    color: blue;
+} */
+
 #deleteBtn{
     cursor: pointer;
     position: absolute;

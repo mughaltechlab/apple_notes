@@ -17,6 +17,7 @@ function updateStorage(){
 
 function addNote(){
     const note = document.createElement('p');
+    note.setAttribute('data-placeholder','Write a note...');
     note.setAttribute('contenteditable','true');
     note.className = 'inputBox';
     note.appendChild(document.createTextNode('Note it....'))
